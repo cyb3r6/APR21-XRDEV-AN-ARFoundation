@@ -129,8 +129,8 @@ PlayerSettings:
     Others: 1
   bundleVersion: 0.1
   preloadedAssets:
-  - {fileID: 4154997793740302523, guid: b19eaee2d973eef42ae7efee2dd099ea, type: 2}
-  - {fileID: 4800000, guid: c9f956787b1d945e7b36e0516201fc76, type: 3}
+  - {fileID: 4800000, guid: e7c77f6eaab324a819efdc13b8125a39, type: 3}
+  - {fileID: 514321593253610461, guid: b19eaee2d973eef42ae7efee2dd099ea, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -149,6 +149,8 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Android: com.DefaultCompany.APR21XRDEVANARFoundation
+    Standalone: com.DefaultCompany.APR21-XRDEV-AN-ARFoundation
+    iPhone: com.DefaultCompany.APR21-XRDEV-AN-ARFoundation
   buildNumber:
     Standalone: 0
     iPhone: 0
@@ -437,9 +439,9 @@ PlayerSettings:
   enableInternalProfiler: 0
   logObjCUncaughtExceptions: 1
   enableCrashReportAPI: 0
-  cameraUsageDescription: 
-  locationUsageDescription: 
-  microphoneUsageDescription: 
+  cameraUsageDescription: camera
+  locationUsageDescription: location
+  microphoneUsageDescription: microphone
   switchNMETAOverride: 
   switchNetLibKey: 
   switchSocketMemoryPoolSize: 6144
